@@ -1,6 +1,6 @@
 {
   "name": "cra-template-moon-route",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/pedromdev/cra-template-moon-route/issues"
   },
+  "main": "template.json",
   "files": [
     "template",
     "template.json"
