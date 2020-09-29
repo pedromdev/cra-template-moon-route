@@ -1,5 +1,5 @@
 import React from 'react';
-import {useQuery} from "@apollo/react-hooks";
+import {useQuery} from "@apollo/client";
 import {ALL_FILMS} from "../graphql/queries/films";
 import Episodes from "../components/Episodes/Episodes";
 import Episode from "../components/Episode/Episode";
