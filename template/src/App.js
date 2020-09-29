@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter} from "react-router-dom";
-import {ApolloProvider} from 'react-apollo';
+import {ApolloProvider} from '@apollo/client';
 import './App.css';
 import {client} from "./graphql/client";
 import Routes from "./Routes";
