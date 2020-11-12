@@ -9,7 +9,7 @@ const EpisodesContainer = () => {
 
   return (
     <Episodes>
-      {!loading && data && data.films.map(film => (
+      {!loading && data && data.allFilms.films.map(film => (
         <Episode
           key={film.id}
           title={film.title}
